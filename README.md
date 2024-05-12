@@ -1,10 +1,12 @@
 
 # Setup
+```
 python3.8-intel64 -m venv ~/code/virtualenvs/llm_inference_estimator
 source ~/code/virtualenvs/llm_inference_estimator/bin/activate
 pip install pip-tools==7.3.0
 pip-compile requirements.in
 pip-sync requirements.txt
+```
 
 # Links for Carlos
 Fundamentals, maybe too theoretical: 

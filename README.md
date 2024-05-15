@@ -37,6 +37,9 @@ Issues I have open with TGI:
 Reddit comment:
 - https://www.reddit.com/r/LocalLLaMA/comments/1agbf5s/comment/kogi8yt/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
 
+Very important article about PagedAttention:
+- https://docs.vllm.ai/en/latest/dev/kernel/paged_attention.html
+
 IMPORTANT:
 Communication times between gpus increase latency quite a bit. In mistral7b for bs=1 in=100 out=4 it goes from 15.90ms
 with 1gpu to 220.90ms with 2 gpus

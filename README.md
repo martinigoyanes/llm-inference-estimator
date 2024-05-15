@@ -22,6 +22,7 @@ For training:
 Some tools out there:
 - https://kipp.ly/transformer-inference-arithmetic/#latency-calculations
 - https://github.com/adarshxs/TokenTally/tree/main
+- https://huggingface.co/spaces/NyxKrage/LLM-Model-VRAM-Calculator/blob/main/index.html
 
 How TGI does its calculations:
 - https://github.com/huggingface/text-generation-inference/blob/59b3ffea1442e40b37ba92e84687ea9784212556/server/text_generation_server/models/flash_causal_lm.py#L790
